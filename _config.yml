@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: -Kylin's Blog
+title: Kylin's Blog
 subtitle:
 description:
 keywords:
@@ -78,4 +78,8 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:Kylin93CN/hexo-blog.git
+  branch: 
+  message: 
+
