@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kylin93cn.github.io/hexo-blog
-root: /hexo-blog
+url: http://moelc.top/ ##https://kylin93cn.github.io/hexo-blog
+root: / ##/hexo-blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,8 +78,16 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:Kylin93CN/hexo-blog.git
   branch: 
   message: 
+- type: rsync
+  host: 47.98.211.232
+  user: root
+  root: /home/blog
+  port: 22
+  delete: 
+  verbose: 
+  ignore_errors: 
 
