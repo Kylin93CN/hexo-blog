@@ -45,7 +45,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon: user
@@ -96,7 +96,7 @@ menu:
   categories: /categories/ || th
   tags: /tags/ || tags
   archives: /archives/ || archive
-  about: /about/ || user
+  about: 404.html
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -133,6 +133,7 @@ scheme: Gemini
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/Kylin93CN || github
+  CSDN: https://blog.csdn.net/ky1in93
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -145,8 +146,9 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
+  CSDN: copyright
 
 # Blog rolls
 links_icon: link
@@ -155,6 +157,7 @@ links_layout: block
 #links_layout: inline
 #links:
   #Title: http://example.com/
+  #MacTalk: http://macshuo.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -247,9 +250,9 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+reward_comment: 您的支持将鼓励我继续创作！
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -282,7 +285,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -365,8 +368,8 @@ baidu_analytics: 8455cfa0c60e1b6038187d801f203524
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: hexo-kylin
   count: true
 
 # Hypercomments
@@ -700,7 +703,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
