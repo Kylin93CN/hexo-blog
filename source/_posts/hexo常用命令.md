@@ -9,29 +9,27 @@ categories:
 
  1. 创建文章
  
- hexo new [layout]   <标题>
+  hexo new [layout]   <标题>
 
-eg: hexo new hexo常用命令
+  eg: hexo new hexo常用命令
 
  2. 清除缓存文件
  
- hexo clean
+  hexo clean
  
- 3.生成静态文件
+ 3. 生成静态文件
  
- hexo generate
+  hexo generate
  
- 简写为 hexo g
+  简写为 hexo g
  
- 4.一键部署 
+ 4. 一键部署 
  
- hexo deploy
+  hexo deploy
 
-简写为 hexo d
+  简写为 hexo d
 
-常用组合
+  常用组合
 
-hexo clean 清除之后  
-hexo d -g  或者 hexo g -d
-
-![enter description here](./images/星球.png)
+  hexo clean 清除之后  
+  hexo d -g  或者 hexo g -d
