@@ -150,6 +150,8 @@ source /etc/profile
 
 永久开启3306端口，并重启防火墙使其生效
 
+阿里云的端口也请开启
+
 ``` dockerfile
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
 
