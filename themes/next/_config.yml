@@ -93,10 +93,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  categories: /categories/ || th
+  tags: /tags/ || tags
   archives: /archives/ || archive
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -104,6 +104,11 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archive
 
 
 # ---------------------------------------------------------------
@@ -111,10 +116,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -154,7 +159,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: https://avatars2.githubusercontent.com/u/18496145?s=460&v=4
 
 # Table Of Contents in the Sidebar
 toc:
@@ -353,7 +358,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 8455cfa0c60e1b6038187d801f203524
 
 # Duoshuo ShortName
 #duoshuo_shortname:
