@@ -6,14 +6,14 @@
 title: Kylin's Blog
 subtitle: 彩笔成长记 `。ˊ
 description: Eternity is a very long time, especially towards the end.
-keywords: Kylin's Blog 博客 成长笔记 kylin blog 个人博客
+keywords: Kylin's Blog,博客,成长笔记,kylin,blog,个人博客
 author: 吕祥
 language: zh-Hans
 timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lvxiang.site/
+url: http://blog.lvxiang.site/
 root: /
 permalink: :title/
 permalink_defaults:
@@ -91,4 +91,8 @@ baidu_url_submit:
   host: http://blog.lvxiang.site ## 在百度站长平台中注册的域名
   token: xxxxxx ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+sitemap: 
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
 
