@@ -40,5 +40,4 @@ source /etc/profile
 node -v
 npm -v
 ```
-
-![nodejs](./images/nodejs.png)
+{% asset_img nodejs.png nodejs %}

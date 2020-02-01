@@ -72,9 +72,10 @@ find  / -name nginx.conf
 
 查找nginx的配置文件路径，然后修改配置文件
 
-![nginx主配置](./images/nginx1.png)
+{% asset_img nginx1.png nginx主配置 %}
 
-![hexo配置](./images/nginx2.png)
+
+{% asset_img nginx2.png hexo配置 %}
 
 
 
