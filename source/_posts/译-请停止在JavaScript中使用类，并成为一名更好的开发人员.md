@@ -1,6 +1,6 @@
 ---
 title: '[译]请停止在JavaScript中使用类，并成为一名更好的开发人员'
-date: 2020-02-01 17:34:33
+date: 2020-02-03 17:34:33
 tags: javascript
 comments: true
 ---
