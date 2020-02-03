@@ -13,7 +13,7 @@ tags:
 ```shell
 npm install --save hexo-helper-live2d
 ```
- 2. 选择并下载心仪的2d模型
+2. 选择并下载心仪的2d模型
  - `live2d-widget-model-chitose`
 - `live2d-widget-model-epsilon2_1`
 - `live2d-widget-model-gf`
@@ -25,7 +25,7 @@ npm install --save live2d-widget-model-chitose
 
 添加下面的配置到hexo的 **_config.yml** 文件中或者主题的 **_config.yml**
 
-**model.use为使用的2d模型**
+**live2d.model.use为使用的2d模型**
 ```yml
 live2d:
   enable: true
