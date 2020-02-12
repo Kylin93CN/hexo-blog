@@ -10,7 +10,7 @@ tags:
 找到了一个很不错的插件： [Remu](https://github.com/zenghongtu/Remu)
 
 花了点时间整理了下自己的star~~
-{% asset_img remu.jpg Remu %}
+{% asset_img remu.png Remu %}
 
 希望疫情早点结束~~找工作啊~~
 
