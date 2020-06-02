@@ -162,7 +162,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://media.lvxiang.site/file/avatar.jpeg
+avatar: //media.lvxiang.site/file/avatar.jpeg
 
 # Table Of Contents in the Sidebar
 toc:
