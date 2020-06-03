@@ -1,9 +1,14 @@
 {
   "name": "hexo-site",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "hexo": {
     "version": "3.9.0"
+  },
+  "scripts": {
+    "clean": "./node_modules/hexo/bin/hexo clean",
+    "generator": "./node_modules/hexo/bin/hexo g",
+    "publish": "./node_modules/hexo/bin/hexo d -g"
   },
   "dependencies": {
     "hexo": "^3.7.0",
