@@ -51,7 +51,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: Kylin &nbsp;<a target="_blank" href="http://www.miitbeian.gov.cn/">浙ICP备18018520号-2</a>
+  copyright: Kylin &nbsp;<a target="_blank" href="http://beian.miit.gov.cn/">浙ICP备18018520号-2</a>
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
